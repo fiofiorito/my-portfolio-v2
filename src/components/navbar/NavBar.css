@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-item {
+    list-style: none;
+}
+
+.navbar-item:hover,
+.navbar-item:focus {
+    color: #012140;
+}

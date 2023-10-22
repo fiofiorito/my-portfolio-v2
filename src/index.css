@@ -1,0 +1,47 @@
+/* colors
+Main font color: #012140
+Secondary font color: #7D8EA6
+Contrast color: #FF785B
+Main bg color: #FCFDFF
+Secondary bg color: #DEE8FF
+Shadow: #DDDDDD
+Contrast color shadow: #FDDFD8
+*/
+
+/* inspo: https://dribbble.com/shots/6720256-Cooking-Recipe-App?utm_source=pinterest&utm_campaign=pinterest_shot&utm_content=Cooking+Recipe+App&utm_medium=Social_Share */
+
+/* fonts
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lato', sans-serif;
+*/
+
+
+body {
+    background-color: #FCFDFF;
+    margin: 0;
+    color: #7D8EA6;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    color: #012140;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* keyframes */
