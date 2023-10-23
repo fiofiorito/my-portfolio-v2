@@ -45,6 +45,15 @@ button {
     margin: 0 auto;
 }
 
+.btn {
+    background-color: #FF785B;
+    border: none;
+    padding: 1em 2em;
+    color: #FCFDFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #FDDFD8;
+}
+
 /* keyframes */
 @keyframes slideFromRight {
     0% {
@@ -56,4 +65,24 @@ button {
         transform: translateX(0px);
         opacity: 1;
     }
+}
+
+.slide-from-right {
+    animation: slideFromRight 0.5s ease-out forwards;
+}
+
+@keyframes fadeInFromBotton {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.slide-from-bottom {
+    animation: fadeInFromBotton 0.6s ease-out forwards;
 }

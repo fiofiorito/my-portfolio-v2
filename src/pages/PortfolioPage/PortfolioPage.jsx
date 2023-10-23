@@ -1,7 +1,7 @@
 import "./PortfolioPage.css";
 
 const PortfolioPage = () => {
-    return <></>
+    return <section className="slide-from-bottom"></section>
 }
 
 export default PortfolioPage;

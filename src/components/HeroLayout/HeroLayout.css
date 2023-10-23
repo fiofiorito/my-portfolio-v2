@@ -10,14 +10,7 @@
     box-shadow: 5px 5px 15px #DDDDDD;
 }
 
-.hero-layout-btn {
-    background-color: #FF785B;
-    border: none;
-    padding: 1em 2em;
-    color: #FCFDFF;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px #FDDFD8;
-}
+/* .hero-layout-btn {} */
 
 .hero-layout-h1 {
     font-weight: 400;

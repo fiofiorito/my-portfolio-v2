@@ -1,0 +1,19 @@
+.work-exp-grid {
+    display: grid;
+    gap: 3rem;
+}
+
+.work-exp-card {
+    background-color: #DEE8FF;
+    box-shadow: 0px 0px 15px #DDDDDD;
+    border-radius: 20px;
+    height: 20rem;
+    padding: 3rem 1rem;
+}
+
+
+@media (min-width: 900px) {
+    .work-exp-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

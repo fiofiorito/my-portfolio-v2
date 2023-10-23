@@ -1,0 +1,29 @@
+.studies-list-grid {
+    padding: 2rem;
+    display: grid;
+    gap: 3rem;
+    text-align: center;
+}
+
+/* .studies-list-item {
+    border: 1px solid red;
+} */
+
+.studies-icon {
+    font-size: 4rem;
+    padding: 0.5rem;
+    color: #FF785B;
+}
+
+
+@media (min-width: 700px) {
+    .studies-list-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .studies-list-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

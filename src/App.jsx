@@ -1,7 +1,7 @@
-// components & styles
+// routing
 import { Route, Routes } from 'react-router'
+// components & styles
 import './App.css'
-import HeroLayout from './components/HeroLayout/HeroLayout'
 import NavBarContainer from './components/navbar/NavBarContainer'
 import HomePage from './pages/HomePage/HomePage'
 import ContactPage from './pages/ContactPage/ContactPage'
@@ -29,3 +29,13 @@ function App() {
 }
 
 export default App
+
+
+// TO DO
+/*
+- PASARLE COMO PROPS LA INFO AL HERO LAYOUT
+- WORK EXP COMPONENT
+- PORTFOLIO COMPONENT
+- CONTACT ME COMPONENT
+
+*/ 

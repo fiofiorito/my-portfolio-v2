@@ -1,9 +1,9 @@
 import "./ContactPage.css";
 
 const ContactPage = () => {
-    return <div>
+    return <section className="slide-from-bottom">
         Contact me :&#41;
-    </div>
+    </section>
 }
 
 export default ContactPage;
