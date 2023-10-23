@@ -13,6 +13,7 @@ Contrast color shadow: #FDDFD8
 /* fonts
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
 */
 
 
@@ -20,7 +21,7 @@ body {
     background-color: #FCFDFF;
     margin: 0;
     color: #7D8EA6;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -45,3 +46,14 @@ button {
 }
 
 /* keyframes */
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

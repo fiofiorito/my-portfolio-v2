@@ -1,12 +1,70 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 2rem;
+    padding: 0.1rem 2rem;
+}
+
+.navbar-logo {
+    color: #FF785B;
+}
+
+.navbar-logo-p {
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.navbar-menu {
+    position: absolute;
+    z-index: 10;
+    right: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 11px);
+    grid-template-rows: repeat(3, 11px);
+    justify-items: center;
+    align-self: center;
+    place-items: center;
+}
+
+.navbar-menu-icon {
+    background-color: #7D8EA6;
+    border-radius: 20px;
+    width: 6px;
+    height: 6px;
+    color: transparent;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+
+.navbar-list-div {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50vw;
+    height: 0;
+    background-color: #FCFDFF;
+    margin: 0;
+    padding: 3.5rem 2.5rem 2rem;
+    z-index: 1;
+    animation: slideFromRight 0.5s ease-out forwards;
+}
+
+.navbar-list-div.visible {
+    height: 70vh;
 }
 
 .navbar-list {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
+    padding: 0;
 }
 
 .navbar-item {
@@ -16,4 +74,27 @@
 .navbar-item:hover,
 .navbar-item:focus {
     color: #012140;
+}
+
+
+@media (min-width: 900px) {
+    .navbar {
+        align-items: center;
+    }
+
+    .navbar-list-div {
+        display: block;
+        position: initial;
+        width: initial;
+        height: initial;
+        padding: 0;
+    }
+
+    .navbar-list {
+        flex-direction: row;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
 }
