@@ -51,7 +51,7 @@
     height: 0;
     background-color: #FCFDFF;
     margin: 0;
-    padding: 3.5rem 2.5rem 2rem;
+    padding: 4.5rem 2.5rem 1rem;
     z-index: 1;
     animation: slideFromRight 0.5s ease-out forwards;
 }
@@ -71,9 +71,15 @@
     list-style: none;
 }
 
-.navbar-item:hover,
-.navbar-item:focus {
+.navbar-link {
+    text-decoration: none;
+    color: #7D8EA6;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
     color: #012140;
+    font-weight: 500;
 }
 
 
@@ -92,6 +98,7 @@
 
     .navbar-list {
         flex-direction: row;
+        gap: 2rem;
     }
 
     .navbar-menu {
