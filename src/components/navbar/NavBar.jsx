@@ -16,19 +16,19 @@ const NavBar = ({ displayMenu, menuIcon, menuIconClass, navbarListClass }) => {
         <nav className={navbarListClass}>
             <ul className="navbar-list">
                 <li className="navbar-item">
-                    <Link className="navbar-link" to="/">Home</Link>
+                    <Link onClick={displayMenu} className="navbar-link" to="/">Home</Link>
                 </li>
                 <li className="navbar-item">
-                    <Link className="navbar-link" to="/studies">Studies</Link>
+                    <Link onClick={displayMenu} className="navbar-link" to="/studies">Studies</Link>
                 </li>
                 <li className="navbar-item">
-                    <Link className="navbar-link" to="/workexperience">Work Experience</Link>
+                    <Link onClick={displayMenu} className="navbar-link" to="/workexperience">Work Experience</Link>
                 </li>
                 <li className="navbar-item">
-                    <Link className="navbar-link" to="/portfolio">Potfolio</Link>
+                    <Link onClick={displayMenu} className="navbar-link" to="/portfolio">Potfolio</Link>
                 </li>
                 <li className="navbar-item">
-                    <Link className="navbar-link" to="/contactme">Contact me</Link>
+                    <Link onClick={displayMenu} className="navbar-link" to="/contactme">Contact me</Link>
                 </li>
             </ul>
         </nav>
