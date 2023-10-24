@@ -2,7 +2,7 @@
 import { useState } from "react";
 // components & style
 import "./NavBar.css";
-import NavBar from "./navbar";
+import NavBar from "./NavBar"
 
 const NavBarContainer = () => {
     const menuIcon = [0, 1, 2, 3, 4, 5, 6, 7, 8];
