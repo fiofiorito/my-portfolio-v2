@@ -43,6 +43,7 @@ button {
 .container {
     width: 90%;
     margin: 0 auto;
+    min-height: 70vh;
 }
 
 .btn {
@@ -85,4 +86,13 @@ button {
 
 .slide-from-bottom {
     animation: fadeInFromBotton 0.6s ease-out forwards;
+}
+
+
+
+/* media queries */
+@media (min-height: 900px) {
+    .container {
+        min-height: 80vh;
+    }
 }

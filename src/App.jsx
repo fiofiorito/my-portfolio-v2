@@ -8,6 +8,7 @@ import ContactPage from './pages/ContactPage/ContactPage'
 import StudiesPage from './pages/StudiesPage/StudiesPage'
 import WorkExpPage from './pages/WorkExpPage/WorkExpPage'
 import PortfolioPage from './pages/PortfolioPage/PortfolioPage'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           <Route path='/contactme' element={<ContactPage />} />
         </Routes>
       </div>
-
+      <Footer />
     </main>
   )
 }
@@ -37,5 +38,6 @@ export default App
 - WORK EXP COMPONENT
 - PORTFOLIO COMPONENT
 - CONTACT ME COMPONENT
+- ADD SMILEY FACE AS SVG
 
 */ 
