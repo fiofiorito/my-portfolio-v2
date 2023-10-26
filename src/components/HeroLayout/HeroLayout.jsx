@@ -1,6 +1,14 @@
 import "./HeroLayout.css"
 
-const HeroLayout = ({ img, imgAlt, title, titleSpan, desc, desc2, btnTxt }) => {
+const HeroLayout = ({ img, imgAlt, title, titleSpan, desc, desc2, btnTxt, elementId }) => {
+    const handleScroll = () => {
+        const id = elementId;
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+
     return <div className="hero-layout-grid">
         <div className="hero-layout-img-div">
             <img className="hero-layout-img" src={img} alt={imgAlt ? imgAlt : "hero img"} />
@@ -9,7 +17,7 @@ const HeroLayout = ({ img, imgAlt, title, titleSpan, desc, desc2, btnTxt }) => {
             <h1 className="hero-layout-h1">{title} <span className="hero-layout-h1-b">{titleSpan}</span> </h1>
             <p>{desc}</p>
             <p>{desc2}</p>
-            <button className="hero-layout-btn btn">{btnTxt}</button>
+            <button onClick={handleScroll} className="hero-layout-btn btn">{btnTxt}</button>
         </div>
     </div>
 }

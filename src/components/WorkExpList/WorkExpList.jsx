@@ -1,13 +1,20 @@
 import "./WorkExpList.css";
+import { myWorkExperience } from "../../data-resources/myWorkExperience";
 
 const WorkExpList = () => {
     return <div className="work-exp-grid">
-        <div className="work-exp-card">
-            <h3>Lorem Ipsum</h3>
-            <p>DATE</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button className="btn">See more</button>
-        </div>
+        {
+            myWorkExperience.map(job => {
+                return <div key={job.id} className="work-exp-card">
+                    <h3>{job.title}</h3>
+                    <h4>{job.role}</h4>
+                    <img src={job.img} alt={job.imgAlt} />
+                    <p>{job.date}</p>
+                    <p>{job.description}</p>
+                    <button className="btn" >See more</button>
+                </div>
+            })
+        }
     </div>
 }
 

@@ -12,6 +12,7 @@ const StudiesPage = () => {
         desc2: "I am disciplined and organized enough that teaching myself something from scratch is a rewarding challenge I am always up to! Thankfully I am an extremely focused person and I can drive my attention towards whatever the task in hand in front of me is :)",
         btnTxt: "See studies"
     }
+
     return <section className="slide-from-bottom">
         <h2>My studies</h2>
         <div>
@@ -23,9 +24,13 @@ const StudiesPage = () => {
                 desc={studiesData.desc}
                 desc2={studiesData.desc2}
                 btnTxt={studiesData.btnTxt}
+                elementId="study-list"
             />
         </div>
-        <StudiesList />
+        <div id="study-list">
+            <StudiesList />
+        </div>
+
     </section>
 }
 

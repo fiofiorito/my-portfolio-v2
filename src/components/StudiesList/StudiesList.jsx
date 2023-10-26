@@ -12,8 +12,8 @@ const StudiesList = () => {
                 return <div className="studies-list-item">
                     <BiSolidBookBookmark className="studies-icon" />
                     <h3>{studyItem.title}</h3>
-                    <p>{studyItem.date}</p>
                     <p>{studyItem.description}</p>
+                    <p>{studyItem.date}</p>
                 </div>
             })
         }
