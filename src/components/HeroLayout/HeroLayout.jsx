@@ -1,14 +1,15 @@
 import "./HeroLayout.css"
 
-const HeroLayout = () => {
+const HeroLayout = ({ img, imgAlt, title, titleSpan, desc, desc2, btnTxt }) => {
     return <div className="hero-layout-grid">
-        <div className="hero-layout-">
-            <p>ACA VA IMG</p>
+        <div className="hero-layout-img-div">
+            <img className="hero-layout-img" src={img} alt={imgAlt ? imgAlt : "hero img"} />
         </div>
         <div className="hero-layout-">
-            <h1 className="hero-layout-h1">Title <span className="hero-layout-h1-b">Title</span> </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, natus laborum harum, odio tempore atque ipsam nostrum magni culpa obcaecati omnis minus exercitationem possimus iste!</p>
-            <button className="btn hero-layout-btn">Explore btn</button>
+            <h1 className="hero-layout-h1">{title} <span className="hero-layout-h1-b">{titleSpan}</span> </h1>
+            <p>{desc}</p>
+            <p>{desc2}</p>
+            <button className="hero-layout-btn btn">{btnTxt}</button>
         </div>
     </div>
 }

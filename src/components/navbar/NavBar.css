@@ -53,11 +53,12 @@
     margin: 0;
     padding: 4.5rem 2.5rem 1rem;
     z-index: 1;
-    animation: slideFromRight 0.5s ease-out forwards;
+    transition: all 0.5s ease-in-out;
 }
 
 .navbar-list-div.visible {
     height: 70vh;
+    animation: slideFromRight 0.5s ease-out forwards;
 }
 
 .navbar-list {
@@ -96,9 +97,14 @@
         padding: 0;
     }
 
+    .navbar-list-div.visible {
+        height: fit-content;
+    }
+
     .navbar-list {
         flex-direction: row;
         gap: 2rem;
+        opacity: 1;
     }
 
     .navbar-menu {
