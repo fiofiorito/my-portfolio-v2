@@ -1,0 +1,23 @@
+.work-exp-page .hero-layout-grid {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.work-exp-page .hero-layout-grid .hero-layout-img-div .hero-layout-img {
+    display: flex;
+    justify-self: center;
+}
+
+@media (min-width: 900px) {
+    .work-exp-page .hero-layout-grid {
+        grid-template-columns: 60% 40%;
+    }
+
+    .work-exp-page .hero-layout-grid .hero-layout-img-div {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .work-exp-page .hero-layout {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+}
