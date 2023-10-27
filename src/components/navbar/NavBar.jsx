@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = ({ displayMenu, menuIcon, menuIconClass, navbarListClass }) => {
     return <>
         <div className="navbar-logo">
-            <p className="navbar-logo-p">iFio</p>
+            <p className="navbar-logo-p">iFio<span><img className="navbar-logo-p-img" src="https://res.cloudinary.com/drhwvqo2m/image/upload/v1698433657/portfolio-2v/gbuzdaibxliejf8ftx6v.png" alt="smiley face" /></span>  </p>
         </div>
         <div className="navbar-menu" onClick={displayMenu}>
             {

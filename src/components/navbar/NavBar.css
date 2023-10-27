@@ -10,8 +10,13 @@
 
 .navbar-logo-p {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin: 1rem 0;
     letter-spacing: 1px;
+}
+
+.navbar-logo-p-img {
+    width: 2rem;
 }
 
 .navbar-menu {
