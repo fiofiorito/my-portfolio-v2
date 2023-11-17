@@ -37,3 +37,13 @@ export const myStudies = [
         description: "High school"
     }
 ];
+
+export const studiesData = {
+    title: "The mastery of being ",
+    titleSpan: "self taught",
+    img: "https://res.cloudinary.com/drhwvqo2m/image/upload/v1698342373/portfolio-2v/votgi48tjcx9ekt2yzgg.png",
+    imgAlt: "studying fio bitmoji",
+    desc: "Truth be told, I have always been someone that loves learning and for as long as I can remember I always disliked the way school systems teach in a monotonous way. I believe we all have our own way of learning and that should be embraced!",
+    desc2: "I am disciplined and organized enough that teaching myself something from scratch is a rewarding challenge I am always up to! Thankfully I am an extremely focused person and I can drive my attention towards whatever the task in hand in front of me is :)",
+    btnTxt: "See studies"
+}

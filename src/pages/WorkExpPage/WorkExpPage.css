@@ -8,6 +8,11 @@
     justify-self: center;
 }
 
+.work-exp-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
 @media (min-width: 900px) {
     .work-exp-page .hero-layout-grid {
         grid-template-columns: 60% 40%;

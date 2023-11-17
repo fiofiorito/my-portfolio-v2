@@ -1,0 +1,26 @@
+.studies-page-div1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.studies-page-div2 .hero-layout-grid {
+    margin: 1rem 0;
+}
+
+.studies-page-div2 .hero-layout-grid .hero-layout-img-div .hero-layout-img {
+    width: 80%;
+    display: flex;
+}
+
+@media (min-width: 650px) {
+    .studies-page-div2 .hero-layout-grid .hero-layout-img-div .hero-layout-img {
+        width: 60%;
+    }
+}
+
+@media (min-width: 900px) {
+    .studies-page-div2 .hero-layout-grid .hero-layout-img-div .hero-layout-img {
+        width: 80%;
+        display: inline;
+    }
+}

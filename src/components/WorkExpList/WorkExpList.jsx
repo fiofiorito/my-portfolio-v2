@@ -1,4 +1,6 @@
+// styles
 import "./WorkExpList.css";
+// data
 import { myWorkExperience } from "../../data-resources/myWorkExperience";
 
 const WorkExpList = () => {
