@@ -7,10 +7,12 @@
     background-color: #DEE8FF;
     box-shadow: 0px 0px 15px #DDDDDD;
     border-radius: 20px;
-    height: 20rem;
     padding: 3rem 1rem;
 }
 
+.work-exp-card-img {
+    border-radius: 16px;
+}
 
 @media (min-width: 900px) {
     .work-exp-grid {
