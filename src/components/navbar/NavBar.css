@@ -13,6 +13,8 @@
     font-size: 2rem;
     margin: 1rem 0;
     letter-spacing: 1px;
+    text-decoration: none;
+    color: #FF785B;
 }
 
 .navbar-logo-p-img {
@@ -80,12 +82,14 @@
 .navbar-link {
     text-decoration: none;
     color: #7D8EA6;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 .navbar-link:hover,
 .navbar-link:focus {
     color: #012140;
-    font-weight: 500;
+    transition: 0.3s;
 }
 
 

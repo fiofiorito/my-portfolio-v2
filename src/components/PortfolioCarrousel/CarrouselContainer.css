@@ -1,13 +1,3 @@
-.visible {
-    display: inherit;
-}
-
-.hidden {
-    visibility: hidden;
-    ;
-}
-
-
 .carrousel {
     overflow: hidden;
     display: grid;

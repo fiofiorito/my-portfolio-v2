@@ -25,10 +25,10 @@ const HomePage = () => {
             btnTxt={heroData.btnTxt}
             elementId="home-page-overview"
         />
-        <div id="home-page-overview">
+        <div id="home-page-overview" className="home-page-overview">
             <h2>Overview</h2>
-            <p>This is my updated portfolio, yes I do have another portfolio that I made a while back. The difference? This one has more up date information and I just wanted to create a new portfolio for the sake of practicing, so here we are!!</p>
-            <p>My goal with this project was to create sort of a "path" for the user &#40;aka you&#41; to browse through. Of course you can go freemode and explore it in whichever way you like, but if you don't know where to start then feel free to follow the buttons!</p>
+            <p>This is my updated portfolio, yes I do have another portfolio that I made a while back. The difference? This one has more up date information and I just wanted to create a new portfolio for the sake of practicing, so here we are!! You can still find my old portfolio on the portfolio tab 😄</p>
+            <p>My goal with this project was to create sort of a "path" for the user &#40;aka you&#41; to browse through and while doing so, discover who I am!</p>
         </div>
     </section>
 

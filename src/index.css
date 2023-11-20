@@ -54,6 +54,16 @@ button {
     color: #FCFDFF;
     border-radius: 10px;
     box-shadow: 2px 2px 10px #FDDFD8;
+    transition: 0.3s;
+}
+
+a {
+    color: #7D8EA6;
+}
+
+.btn:hover {
+    background-color: #FF9780;
+    transition: 0.3s;
 }
 
 .h2-xs-section-title {
@@ -116,6 +126,25 @@ button {
     animation: fadeInFromBotton 0.6s ease-out forwards;
 }
 
+@keyframes shakeAndRotate {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+
+    20%,
+    80% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-12deg);
+    }
+}
+
+.shake-and-rotate {
+    animation: shakeAndRotate 1s ease normal forwards;
+}
 
 
 /* media queries */

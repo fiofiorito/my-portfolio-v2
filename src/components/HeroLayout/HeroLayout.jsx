@@ -15,8 +15,8 @@ const HeroLayout = ({ img, imgAlt, title, titleSpan, desc, desc2, btnTxt, elemen
         </div>
         <div className="hero-layout">
             <h1 className="hero-layout-h1">{title} <span className="hero-layout-h1-b">{titleSpan}</span> </h1>
-            <p>{desc}</p>
-            <p>{desc2}</p>
+            <p className="hero-p">{desc}</p>
+            <p className="hero-p">{desc2}</p>
             <button onClick={handleScroll} className="hero-layout-btn btn">{btnTxt}</button>
         </div>
     </div>
