@@ -9,6 +9,8 @@ const CarrouselItem = ({ item }) => {
                 <div className="carrousel-item-desc">
                     <p className="carrousel-item-desc-p">{item.description}</p>
                 </div>
+                <p><a className="carrousel-item-p-links" href={item.website}>Check the website here! 😊</a></p>
+                <p>Github repo <a className="carrousel-item-p-links" href={item.github}>here</a></p>
                 <h3 className="carrousel-item-h3">Tools & skills</h3>
                 <ul className="carrousel-item-p">{
                     item.tools.map((tool, index) => {

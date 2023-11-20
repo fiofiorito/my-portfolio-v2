@@ -1,3 +1,13 @@
+.visible {
+    display: inherit;
+}
+
+.hidden {
+    visibility: hidden;
+    ;
+}
+
+
 .carrousel {
     overflow: hidden;
     display: grid;
@@ -66,6 +76,20 @@
 
 .carrousel-item-desc {
     white-space: normal;
+}
+
+.carrousel-item-p-links {
+    color: #7D8EA6;
+    font-style: italic;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.carrousel-item-p-links:hover,
+.carrousel-item-p-links:focus {
+    color: #012140;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 /* media query */

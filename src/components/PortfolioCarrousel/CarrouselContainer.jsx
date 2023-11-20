@@ -17,8 +17,8 @@ const CarrouselContainer = () => {
             newSlide = myPortfolio.length - 1;
         }
         setActiveSlide(newSlide);
+        handleClass();
     }
-
 
     return <div className="carrousel">
         <button onClick={() => { updateIndex(activeSlide - 1) }} className="carrousel-btn">
