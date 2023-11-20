@@ -24,7 +24,7 @@ const CarrouselContainer = () => {
         <button onClick={() => { updateIndex(activeSlide - 1) }} className="carrousel-btn">
             <IoIosArrowBack className="carrousel-btn-icon" />
         </button>
-        <div className="carrousel-child" style={{ transform: `translate(-${activeSlide * 100}% )` }}>
+        <div className="carrousel-child" style={{ transform: `translate(-${activeSlide * 110}% )` }}>
             {myPortfolio.map(item => {
                 return <CarrouselItem key={item.id} item={item} />
             })}

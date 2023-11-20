@@ -1,4 +1,15 @@
-.portfolio-page-div {
+.portfolio-page-div1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.portfolio-page-div1 .h2-xs-section-title {
+    margin-top: 0.5rem;
+}
+
+
+
+.portfolio-page-div2 {
     display: flex;
     justify-content: center;
     align-items: center;
