@@ -27,3 +27,13 @@ export const myPortfolio = [
         img: "https://res.cloudinary.com/drhwvqo2m/image/upload/v1700484963/portfolio-2v/gbpxr1yrftoekyzair4d.png"
     }
 ]
+
+export const portfolioData = {
+    img: "https://res.cloudinary.com/drhwvqo2m/image/upload/v1700750242/portfolio-2v/x75o2dq20qcwvcscbvtz.jpg",
+    imgAlt: "fitness financiero's mate on the foreground and laptop with code on the background",
+    title: "Personal",
+    titleSpan: "Portfolio",
+    desc: "Since I completed the Full-Stack bootcamp I took on march (finished on July, 2023), I decided it was time to build my own projects, start to finish, with no instructions given by anyone! 😋",
+    desc2: "And that's how I got here! In this section you can find the projects I enjoyed the most and learned a lot during the process. FYI, building the carrousel you will see down below was a challenge itself and I am happy with the results!",
+    btnTxt: "Explore the gallery"
+}

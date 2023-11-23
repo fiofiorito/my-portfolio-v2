@@ -7,9 +7,13 @@
     margin-top: 0.5rem;
 }
 
+.portfolio-page-div2 .hero-layout-grid {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0;
+}
 
-
-.portfolio-page-div2 {
+.portfolio-page-div3 {
     display: flex;
     justify-content: center;
     align-items: center;
