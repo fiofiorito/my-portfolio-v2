@@ -7,7 +7,7 @@ import { studiesData } from "../../data-resources/myStudies";
 
 const StudiesPage = () => {
     const studiesPresentation = studiesData;
-    return <section id="studies-page" className="slide-from-bottom">
+    return <section className="container slide-from-bottom">
         <div className="studies-page-div1">
             <h2 className="h2-xs-section-title">My studies</h2>
         </div>

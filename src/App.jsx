@@ -1,7 +1,6 @@
 // routing
 import { Route, Routes } from 'react-router'
 // components & styles
-import './App.css'
 import NavBarContainer from './components/navbar/NavBarContainer'
 import HomePage from './pages/HomePage/HomePage'
 import ContactPage from './pages/ContactPage/ContactPage'
@@ -15,7 +14,7 @@ function App() {
   return (
     <main>
       <NavBarContainer />
-      <div className='container'>
+      <div className=''>
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/studies' element={<StudiesPage />} />

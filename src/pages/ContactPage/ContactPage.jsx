@@ -1,7 +1,7 @@
 import "./ContactPage.css";
 
 const ContactPage = () => {
-    return <section className="slide-from-bottom">
+    return <section className="container slide-from-bottom">
         <div className="contact-me-div1">
             <h2 className="contact-me h2-xs-section-title">Contact me</h2>
         </div>

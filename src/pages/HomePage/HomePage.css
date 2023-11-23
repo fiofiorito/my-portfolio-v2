@@ -1,3 +1,118 @@
 .home-page-overview {
     line-height: 1.5;
 }
+
+.overview-hero .hero-layout-grid {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.quote {
+    background-color: #FF785B;
+    box-shadow: 0px 0px 10px 3px #FDDFD8;
+    padding: 1rem;
+    color: #FCFDFF;
+    text-align: center;
+}
+
+.quote-icon {
+    font-size: 3rem;
+    margin-top: 0.5rem;
+}
+
+.quote-q,
+.quote-p {
+    font-style: italic;
+}
+
+.quote-q {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin: 0.75rem 0 0;
+}
+
+.quote-p {
+    margin-top: 0.5rem;
+}
+
+.overview-hero .hero-layout-grid {
+    margin: 0;
+    gap: 1rem;
+}
+
+.overview-hero .hero-layout {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.overview-hero .hero-layout-grid .hero-layout-img-div {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.overview-hero .hero-layout .hero-layout-h1 {
+    padding: 0;
+}
+
+.overview-hero .hero-layout .hero-layout-btn {
+    display: none;
+}
+
+.overview-hero-div2 .hero-layout-grid {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0 3rem;
+    margin-top: 0;
+}
+
+.overview-hero-div2 .hero-layout {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.overview-hero-div2 .hero-layout-grid .hero-layout-img-div {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.overview-hero-div2 .hero-layout .hero-layout-h1 {
+    padding: 0;
+}
+
+
+.overview-hero-div2 .hero-layout .hero-layout-btn {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .overview-hero .hero-layout-grid {
+        margin: 1rem 0 0;
+        gap: 0;
+        grid-template-columns: 60% 40%;
+        align-items: flex-start;
+    }
+
+    .overview-hero .hero-layout-grid .hero-layout-img-div {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .overview-hero .hero-layout-grid .hero-layout-img-div .hero-layout-img {
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+        width: 80%;
+    }
+
+    .overview-hero .hero-layout {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .overview-hero-div2 .hero-layout-grid {
+        align-items: flex-start;
+    }
+
+    .overview-hero-div2 .hero-layout {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .overview-hero-div2 .hero-layout-grid .hero-layout-img-div {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+}

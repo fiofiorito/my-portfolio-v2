@@ -7,7 +7,7 @@ import HeroLayout from "../../components/HeroLayout/HeroLayout";
 
 const PortfolioPage = () => {
     const portfolioPresentation = portfolioData
-    return <section className="slide-from-bottom">
+    return <section className="container slide-from-bottom">
         <div className="portfolio-page-div1">
             <h2 className="portfolio-page-h2 h2-xs-section-title">My portfolio</h2>
         </div>

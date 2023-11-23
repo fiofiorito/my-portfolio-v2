@@ -1,36 +1,58 @@
-// components
-import HeroLayout from "../../components/HeroLayout/HeroLayout"
+// components & styles
+import HeroLayout from "../../components/HeroLayout/HeroLayout";
+import { BsStars } from "react-icons/bs";
+import './HomePage.css'
+// data
+import { firstHero, secondHero, thirdHero } from "../../data-resources/HomePage"
 
 const HomePage = () => {
-    const heroData = {
-        title: "Frontend focused ",
-        titleSpan: "Web Developer",
-        img: "https://res.cloudinary.com/drhwvqo2m/image/upload/v1698352041/portfolio-2v/rfn4m2ifbbgzdsufwjhd.jpg",
-        imgAlt: "ifio bitmoji",
-        desc: "Hi! I am Fiorella Fiorito, a frontend web development student. I am actually studying full stack web development but I can handle and work most effectively with frontend.",
-        desc2: "Are you ready? Browse freely!",
-        btnTxt: "Let's start!"
+    const heroData = firstHero;
+    const overviewData = secondHero;
+    const projectData = thirdHero;
 
-
-    }
-
-    return <section className="slide-from-bottom">
-        <HeroLayout
-            title={heroData.title}
-            titleSpan={heroData.titleSpan}
-            img={heroData.img}
-            imgAlt={heroData.imgAlt}
-            desc={heroData.desc}
-            desc2={heroData.desc2}
-            btnTxt={heroData.btnTxt}
-            elementId="home-page-overview"
-        />
-        <div id="home-page-overview" className="home-page-overview">
-            <h2>Overview</h2>
-            <p>This is my updated portfolio, yes I do have another portfolio that I made a while back. The difference? This one has more up date information and I just wanted to create a new portfolio for the sake of practicing, so here we are!! You can still find my old portfolio on the portfolio tab 😄</p>
-            <p>My goal with this project was to create sort of a "path" for the user &#40;aka you&#41; to browse through and while doing so, discover who I am!</p>
+    return <>
+        <section className="container slide-from-bottom">
+            <HeroLayout
+                title={heroData.title}
+                titleSpan={heroData.titleSpan}
+                img={heroData.img}
+                imgAlt={heroData.imgAlt}
+                desc={heroData.desc}
+                desc2={heroData.desc2}
+                btnTxt={heroData.btnTxt}
+                elementId="home-page-overview"
+            />
+        </section>
+        <div id="home-page-overview" className="quote">
+            <BsStars className="quote-icon" />
+            <p className="quote-q">"If you talk about it, it's a dream, if you envision it, it's possible, but if you schedule it, it's real"</p>
+            <p className="quote-p">Tony Robbins</p>
         </div>
-    </section>
+        <div className="container home-page-overview">
+            <div className="overview-hero">
+                <HeroLayout
+                    title={overviewData.title}
+                    titleSpan={overviewData.titleSpan}
+                    img={overviewData.img}
+                    imgAlt={overviewData.imgAlt}
+                    desc={overviewData.desc}
+                    desc2={overviewData.desc2}
+                    btnTxt={overviewData.btnTxt}
+                />
+            </div>
+            <div className="overview-hero-div2">
+                <HeroLayout
+                    title={projectData.title}
+                    titleSpan={projectData.titleSpan}
+                    img={projectData.img}
+                    imgAlt={projectData.imgAlt}
+                    desc={projectData.desc}
+                    desc2={projectData.desc2}
+                    btnTxt={projectData.btnTxt}
+                />
+            </div>
+        </div>
+    </>
 
 }
 
