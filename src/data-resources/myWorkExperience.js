@@ -5,7 +5,7 @@ export const myWorkExperience = [
         role: "Video editor",
         date: "02-2023 to present",
         description: "I have produced more than 70 videos for different platforms. The type of videos I am incharge of editing ranges from educational long form videos to promotional/social media short form videos.",
-        img: "src/visuals/fitness-financiero-video-editing.gif",
+        img: "../../../visuals/fitness-financiero-video-editing.gif",
         imgAlt: "My job as a video editor at Fitness Finaciero"
     },
     {
