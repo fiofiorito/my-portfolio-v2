@@ -5,7 +5,7 @@ export const myWorkExperience = [
         role: "Video editor",
         date: "02-2023 to present",
         description: "I have produced more than 70 videos for different platforms. The type of videos I am incharge of editing ranges from educational long form videos to promotional/social media short form videos.",
-        img: "../../../../src/visuals/fitness-financiero-video-editing.gif",
+        img: "./../../../visuals/fitness-financiero-video-editing.gif",
         imgAlt: "My job as a video editor at Fitness Finaciero"
     },
     {
@@ -14,7 +14,7 @@ export const myWorkExperience = [
         role: "Social media managment",
         date: "05-2023 to present",
         description: "The company's Instagram account has grown +8% on their followers and interaction has grown more than 30%. My job is to plan out the content that gets posted each month with the intention of selling the company's 1:1 program.",
-        img: "src/visuals/gif-socials.gif",
+        img: "../../visuals/gif-socials.gif",
         imgAlt: "My job as a social media manager at Fitness Finaciero"
     },
     {
@@ -23,7 +23,7 @@ export const myWorkExperience = [
         role: "Video Editing Freelancer",
         date: "02-2023 to present",
         description: "I offer my video editing services to different clients around the world. I have edited more than 50 videos for my different clients so far! My services range from social media video editing to podcast video and audio editing.",
-        img: "src/visuals/gif-freelance.gif",
+        img: "./../../visuals/gif-freelance.gif",
         imgAlt: "My job as a freelancer"
     }
 ]
