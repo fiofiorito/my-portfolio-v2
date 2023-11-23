@@ -5,8 +5,9 @@ export const myWorkExperience = [
         role: "Video editor",
         date: "02-2023 to present",
         description: "I have produced more than 70 videos for different platforms. The type of videos I am incharge of editing ranges from educational long form videos to promotional/social media short form videos.",
-        img: "./../../../visuals/fitness-financiero-video-editing.gif",
-        imgAlt: "My job as a video editor at Fitness Finaciero"
+        img: "https://res.cloudinary.com/drhwvqo2m/image/upload/v1700746948/portfolio-2v/zh16usiwojxee9t1zjg8.png",
+        imgAlt: "My job as a video editor at Fitness Finaciero",
+        seeMore: "https://www.instagram.com/reel/CxeF9sOOz-Q/"
     },
     {
         id: 2,
@@ -14,8 +15,9 @@ export const myWorkExperience = [
         role: "Social media managment",
         date: "05-2023 to present",
         description: "The company's Instagram account has grown +8% on their followers and interaction has grown more than 30%. My job is to plan out the content that gets posted each month with the intention of selling the company's 1:1 program.",
-        img: "../../visuals/gif-socials.gif",
-        imgAlt: "My job as a social media manager at Fitness Finaciero"
+        img: "https://res.cloudinary.com/drhwvqo2m/image/upload/v1700746948/portfolio-2v/cwtskvefu4p7ukypbeyx.png",
+        imgAlt: "My job as a social media manager at Fitness Finaciero",
+        seeMore: "https://www.instagram.com/fitness.financiero"
     },
     {
         id: 3,
@@ -23,8 +25,9 @@ export const myWorkExperience = [
         role: "Video Editing Freelancer",
         date: "02-2023 to present",
         description: "I offer my video editing services to different clients around the world. I have edited more than 50 videos for my different clients so far! My services range from social media video editing to podcast video and audio editing.",
-        img: "./../../visuals/gif-freelance.gif",
-        imgAlt: "My job as a freelancer"
+        img: "https://res.cloudinary.com/drhwvqo2m/image/upload/v1700746948/portfolio-2v/pqlqvom6lus304hqv22h.png",
+        imgAlt: "My job as a freelancer",
+        seeMore: "https://www.upwork.com/freelancers/~0185c5c32fd4f06b3f"
     }
 ]
 
